@@ -14,7 +14,7 @@
    <children>
       <HBox prefHeight="33.0" prefWidth="400.0" style="-fx-background-color: #53ee64;">
          <children>
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="We Chat">
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="We Chat Server">
                <font>
                   <Font size="18.0" />
                </font>
