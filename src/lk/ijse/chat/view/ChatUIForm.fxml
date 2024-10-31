@@ -10,10 +10,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat.controller.ChatUIFormController">
    <children>
-      <HBox prefHeight="33.0" prefWidth="400.0" style="-fx-background-color: green;">
+      <HBox prefHeight="33.0" prefWidth="400.0" style="-fx-background-color: #53ee64;">
          <children>
             <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="We Chat">
                <font>
@@ -23,7 +22,7 @@
          </children>
       </HBox>
       <Pane fx:id="chatPane" layoutX="12.0" layoutY="45.0" prefHeight="479.0" prefWidth="375.0" style="-fx-background-color: white;" />
-      <Button fx:id="btnEmoji" layoutX="222.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnEmojiOnAction" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: gold;" text=" ">
+      <Button fx:id="btnEmoji" layoutX="222.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnEmojiOnAction" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: #1e980a;" text=" ">
          <graphic>
             <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -33,7 +32,7 @@
          </graphic>
       </Button>
       <TextField fx:id="txtMessage" layoutX="17.0" layoutY="533.0" onAction="#txtMessegeEnterOnAction" prefHeight="34.0" prefWidth="198.0" />
-      <Button fx:id="btnAttachFile" layoutX="281.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnAttachFileOnAction" prefHeight="34.0" prefWidth="47.0" style="-fx-background-color: gold;" text="  ">
+      <Button fx:id="btnAttachFile" layoutX="281.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnAttachFileOnAction" prefHeight="34.0" prefWidth="47.0" style="-fx-background-color: #1e980a;" text="  ">
          <graphic>
             <ImageView fitHeight="24.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -42,7 +41,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="btnSend" layoutX="342.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnSendOnAction" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: gold;" text=" ">
+      <Button fx:id="btnSend" layoutX="342.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnSendOnAction" prefHeight="34.0" prefWidth="44.0" style="-fx-background-color: #1e980a;" text=" ">
          <graphic>
             <ImageView fitHeight="26.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                <image>
