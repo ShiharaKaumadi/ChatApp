@@ -10,6 +10,7 @@ public class WelcomeFormController {
     public JFXButton btnSignUp;
 
     public void btnSignInOnAction(ActionEvent actionEvent) {
+
     }
 
     public void btnSignUpOnAction(ActionEvent actionEvent) {
