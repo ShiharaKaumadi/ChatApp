@@ -8,10 +8,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane fx:id="signupPane" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat.controller.SignUpFormController">
+<AnchorPane fx:id="signInPane" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat.controller.SignInFormController">
    <children>
-      <Text fill="#1018ae" layoutX="136.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We Chat Sign Up">
+      <Text fill="#1018ae" layoutX="136.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We Chat Sign In">
          <font>
             <Font size="18.0" />
          </font>
@@ -21,13 +20,20 @@
       <Text layoutX="76.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
       <TextField fx:id="txtLastName" layoutX="76.0" layoutY="164.0" prefHeight="26.0" prefWidth="247.0" />
       <Text layoutX="76.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <Text layoutX="76.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password" />
       <PasswordField fx:id="txtPassword" layoutX="76.0" layoutY="222.0" prefHeight="26.0" prefWidth="247.0" />
-      <PasswordField fx:id="txtPasswordConfirm" layoutX="76.0" layoutY="282.0" prefHeight="26.0" prefWidth="247.0" />
-      <JFXButton fx:id="btnSignIn" layoutX="76.0" layoutY="345.0" onAction="#btnSignInOnAction" prefHeight="26.0" prefWidth="247.0" style="-fx-background-color: green;" text="Sign In" textFill="WHITE">
+      <JFXButton fx:id="btnSignIn" layoutX="76.0" layoutY="273.0" onAction="#btnSignInOnAction" prefHeight="26.0" prefWidth="247.0" style="-fx-background-color: green;" text="Sign In" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Text fill="#2424b9" layoutX="118.0" layoutY="333.0" onMouseClicked="#SignUpOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="New to We Chat? Sign up Here" underline="true">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
-      </JFXButton>
+      </Text>
+      <Text fill="#1713e4" layoutX="156.0" layoutY="379.0" onMouseClicked="#forgetPasswordOnClick" strokeType="OUTSIDE" strokeWidth="0.0" text="Forget Password" underline="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
    </children>
 </AnchorPane>
